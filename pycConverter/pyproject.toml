@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "pycConverter"
+version = "0.0.5"
+description = "convert all python script to pyc file in given directory"
+authors = ["MonadWizard <monad.wizard.r@gmail.com>"]
+
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/MonadWizard/pycconverter"
+repository = "https://github.com/MonadWizard/pycconverter"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
